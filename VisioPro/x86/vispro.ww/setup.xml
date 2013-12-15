@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=s6JaH7uKe0Zo+fNtsOrc+O32EhNLq5cchJLl7hRH4fwFcyONeESiQaTpEvRJwtx9fAb7BoLlFcCohLlnOQx+GTBO6HsyBlIUQ4lFnpVBRdgzLGCkVZCwROc3i5xLJsbIVVwr87rezctDTjrRyB0kQsSX2dPJebXqzMSqsOg2my4=-->
+<!--_SIG=vsJ2IfY/VbaL1Z3o3x53fFlyYwmOFFQRaJMaDIKbOpZdVziKaKw/B2CXfKdKsfv4UIXTPm865VZb0rMD8hA1zmRyozGMLow0YThRlwVMsYYdBzDDyXnSJB9QUTMi7cnJsTh25Gq414OMyIE55NxyvbiqDP84gwnwlAV9vQczhiE=-->
+<Setup Id="VisPro" Type="Product" ProductCode="{90150000-0051-0000-0000-0000000FF1CE}">
+	<PIDTemplate Value="82503&amp;amp;lt;````=````=````=````=`````&amp;amp;gt;@@@@@"/>
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="OSpp" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="OSpp_Core" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="VSCommonPIAHidden" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes"/>
+		<Option Id="VBEPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="VSCommonPIAHidden"/>
+		</Option>
+		<Option Id="dummy_MSCOMCTL_PIA" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes"/>
+		<Option Id="dummy_Office_PIA" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes"/>
+		<Option Id="OfficePiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="dummy_Office_PIA"/>
+		</Option>
+		<Option Id="AceFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="ACCESSFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="GrooveFiles2"/>
+			<OptionDependency Lead="OUTLOOKFiles"/>
+			<OptionDependency Lead="PPTFiles"/>
+			<OptionDependency Lead="PROJECTFiles"/>
+			<OptionDependency Lead="PubPrimary"/>
+			<OptionDependency Lead="QueryFiles"/>
+			<OptionDependency Lead="VISIOFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="XDOCSFiles"/>
+			<Option Id="Ace_PIA" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+		</Option>
+		<Option Id="AcePiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Ace_PIA"/>
+		</Option>
+		<Option Id="AccessPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Access_PIA"/>
+		</Option>
+		<Option Id="ExcelPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Excel_PIA"/>
+		</Option>
+		<Option Id="GrooveShellIntegration64" DefaultState="FollowParent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="GrooveFiles2"/>
+		</Option>
+		<Option Id="OneNote64Files" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OneNoteFiles"/>
+		</Option>
+		<Option Id="OneNotePiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" PreReq="NetFW40" Hidden="yes">
+			<OptionDependency Lead="OneNotePIA"/>
+		</Option>
+		<Option Id="Outlook64SearchShellReg" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OUTLOOKFiles"/>
+		</Option>
+		<Option Id="OutlookPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Outlook_PIA"/>
+		</Option>
+		<Option Id="Outlook64Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OUTLOOKFiles"/>
+		</Option>
+		<Option Id="PowerPointPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="PowerPoint_PIA"/>
+		</Option>
+		<Option Id="ProjectPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Project_PIA"/>
+		</Option>
+		<Option Id="PublisherPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Publisher_PIA"/>
+		</Option>
+		<Option Id="WAC_PIARegSPD64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="WAC_PIA_SPD"/>
+		</Option>
+		<Option Id="SHAREDFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="ConvertersFiltersFile" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="GraphicsFiltersFile" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="TextConverters" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+					<Option Id="TCWorks7Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				</Option>
+			</Option>
+			<Option Id="InternationalSupportFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="InternationalSupportFiles_ArialUni" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+				<Option Id="InternationalSupportFiles_JPN" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VSTO" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+				<Option Id="VSTOCLR35" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="NetFW35FULLONLY" Hidden="yes"/>
+				<Option Id="VSTOCLR40" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="NetFW40" Hidden="yes">
+					<OptionDependency Lead="LOBiFiles"/>
+				</Option>
+			</Option>
+			<Option Id="OArt_DocTheme" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<OptionDependency Lead="PPTFiles"/>
+			</Option>
+			<Option Id="OfficeDigitalSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="ProofingTools" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="TranslationCore" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="TCDRegistration" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			<Option Id="VBAFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<OptionDependency Lead="ACCESSFiles"/>
+				<OptionDependency Lead="ExcelAddInPowerViewFiles"/>
+				<OptionDependency Lead="OneNoteFiles"/>
+			</Option>
+			<Option Id="WISPFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="PPTFiles"/>
+			</Option>
+		</Option>
+		<Option Id="TOOLSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="Forms_PIA" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			<Option Id="OsmSKUMain" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" PreReq="IsProPlus;IsStandard;IsMondo;IsAccess;IsExcel;IsInfoPath;IsOneNote;IsOutlook;IsPowerPoint;IsPrjPro;IsPrjStd;IsPublisher;IsVisPro;IsVisStd;IsWord;IsProPlusR;IsStandardR;IsAccessR;IsExcelR;IsInfoPathR;IsOneNoteR;IsOutlookR;IsPowerPointR;IsPrjProR;IsPrjStdR;IsPublisherR;IsVisProR;IsVisStdR;IsWordR;IsC2RPackageOnMachineOSM">
+				<Option Id="OsmSKUAdminUX" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" PreReq="IsProPlus;IsStandard;IsMondo;IsProPlusR;IsStandardR;IsC2RPackageOnMachineOSMUX"/>
+				<Option Id="OsmSKUClientUX" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" PreReq="IsProPlus;IsStandard;IsMondo;IsProPlusR;IsStandardR;IsC2RPackageOnMachineOSMUX"/>
+			</Option>
+			<Option Id="GraphPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+				<OptionDependency Lead="Graph_PIA"/>
+			</Option>
+			<Option Id="DocumentImagingUtils" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			<Option Id="OSESupp" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+				<Option Id="WebDiscussFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes">
+					<OptionDependency Lead="EXCELFiles"/>
+					<OptionDependency Lead="OneNoteFiles"/>
+					<OptionDependency Lead="WAC_SPD"/>
+				</Option>
+			</Option>
+			<Option Id="SetLanguageFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+		</Option>
+		<Option Id="FormsPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Forms_PIA"/>
+		</Option>
+		<Option Id="SmartTagPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="SmartTag_PIA"/>
+		</Option>
+		<Option Id="VISIOFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="Visio_PIA" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+			<Option Id="VisioHelp" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			<Option Id="Visio_Data_Visualization_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Brainstorming_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Process_Engineering_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Organization_Charts_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Internet_Diagrams_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Building_Plan_PRO_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Building_Plan_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="CAD_Drawing_Display_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Flowcharts_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Visio_Drilldown_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Visio_Workflow_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Visio_Core_Content_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+			<Option Id="Project_Schedules_Unitless" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VISIOFiles"/>
+			</Option>
+		</Option>
+		<Option Id="VisioPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Visio_PIA"/>
+		</Option>
+		<Option Id="VisioPreviewerFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes"/>
+		<Option Id="FirstRunFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes"/>
+		<Option Id="SubscriptionHeartbeat" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes"/>
+		<Option Id="WordPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="Word_PIA"/>
+		</Option>
+		<Option Id="XDOCSFiles64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="XDOCSFiles"/>
+		</Option>
+		<Option Id="XDocsPiaReg64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="XDocs_PIA"/>
+		</Option>
+		<Option Id="WISPHidden" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="EXCELFiles"/>
+			<OptionDependency Lead="OneNoteFiles"/>
+			<OptionDependency Lead="OUTLOOKFiles"/>
+			<OptionDependency Lead="PPTFiles"/>
+			<OptionDependency Lead="WORDFiles"/>
+			<OptionDependency Lead="XDOCSFiles"/>
+		</Option>
+		<Option Id="DCubeHidden" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="VISIOFiles"/>
+			<OptionDependency Lead="ACCESSFiles"/>
+			<OptionDependency Lead="EXCELFiles"/>
+		</Option>
+		<Option Id="Visio64Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="VISIOFiles"/>
+		</Option>
+		<Option Id="Visio64ShapeSearch" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="VISIOFiles"/>
+		</Option>
+		<Option Id="ExcelXmlEditVerb64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="EXCELFiles"/>
+		</Option>
+		<Option Id="PPTXmlEditVerb64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="PPTFiles"/>
+		</Option>
+		<Option Id="WAC_XmlEditVerb64SPD" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="WAC_SPD"/>
+		</Option>
+		<Option Id="WordXmlEditVerb64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="WORDFiles"/>
+		</Option>
+		<Option Id="XDocsXmlEditVerb64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="XDOCSFiles"/>
+		</Option>
+		<Option Id="VSTO64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="VSTO"/>
+		</Option>
+		<Option Id="Project64Files" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="PROJECTFiles"/>
+		</Option>
+		<Option Id="Lync32With64Bits" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+			<OptionDependency Lead="LyncCoreFiles"/>
+		</Option>
+	</Option>
+	<PackageRef Path="VisProWW.xml"/>
+	<PackageRef Path="Office64WW.xml" InstalledPath="..\Office64.WW\Office64WW.xml" Exclude="Unless64bitOS"/>
+	<AddOnRef Keyword="OfficeMUI"/>
+	<AddOnRef Keyword="Proofing"/>
+	<AddOnRef Keyword="Office64MUI" Exclude="Unless64bitOS"/>
+	<AddOnRef Keyword="OSMMUI"/>
+	<AddOnRef Keyword="VisioMUI"/>
+	<AppUpgrade Id="VISIOFiles" UIString="Microsoft Office Visio"/>
+	<RMCCP FilePath="VISIO.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="VISIOCORE.MSI" MinSize="200000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="VISPRO.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="VISPROR.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="VISSTD.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="VISSTDR.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="PRJPROE.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="PRJPRO.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="PRJSTDE.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<RMCCP FilePath="PRJSTD.MSI" MinSize="1000000" MaxSize="6500000" MinMajorVer="0" MinMinorVer="0" MaxMajorVer="0" MaxMinorVer="0"/>
+	<INSTALLLOCATION Value="%PROGRAMFILES%\Microsoft Office"/>
+	<PIDKEY Value="C2FG9-N6J68-H8BTJ-BW3QX-RM3B3"/>
+	<AllowAdditionalPidKeys Value="true"/>
+	<ActConfigIDs>
+		<ActConfigID Id="3E4294DD-A765-49BC-8DBD-CF8B62A4BD3D" TrialBitmap="0x1BFF" AllowTerminalService="1" GroupID="2195"/>
+		<ActConfigID Id="E13AC10E-75D0-4AFF-A0CD-764982CF541C" TrialBitmap="0x1BFF" AllowTerminalService="1" GroupID="2194"/>
+	</ActConfigIDs>
+	<SkuType Value="standalone"/>
+	<CCP ProductId="51" ProductVersion="10"/>
+	<CCP ProductId="51" ProductVersion="11"/>
+	<CCP ProductId="53" ProductVersion="11"/>
+	<CCP ProductId="55" ProductVersion="11"/>
+	<CCP ProductId="0053" ProductVersion="12"/>
+	<LocalCache DownloadCode="{90150000-0051-0000-0000-0000000FF1CE}" SkuComponentDirectory="VisPro.WW">
+		<File Id="Office64WW.xml" MD5="3BC3EC55B80DA1F41C0FE5F941CB3498" Size="0" RelativeCachePath="Office64WW.xml" RelativeSourcePath="Office64WW.xml"/>
+		<File Id="Office64WW.msi" MD5="BB50D715EFDC8944B936928AD7F8FF1E" Size="2748416" RelativeCachePath="Office64WW.msi" RelativeSourcePath="Office64WW.msi"/>
+		<File Id="OWOW64WW.cab" MD5="1437B0D71C4EB6A8B62834E5A1A57EB1" Size="21146395" RelativeCachePath="OWOW64WW.cab" RelativeSourcePath="OWOW64WW.cab"/>
+		<File Id="VisProWW.xml" MD5="82B076E0A4FC89F2A9A09D30FEF22175" Size="0" RelativeCachePath="VisProWW.xml" RelativeSourcePath="VisProWW.xml"/>
+		<File Id="VisProWW.msi" MD5="044CB7EA36D1320B44CAE5B0E4FB996C" Size="9474048" RelativeCachePath="VisProWW.msi" RelativeSourcePath="VisProWW.msi"/>
+		<File Id="VisProWW.cab" MD5="7CC6811604F331AD910D6B4FAAFFC108" Size="220332467" RelativeCachePath="VisProWW.cab" RelativeSourcePath="VisProWW.cab"/>
+		<File Id="setup.exe" MD5="AA63D1FA6D81D69C08B388C7B54D9507" Size="207496" RelativeCachePath="setup.exe" RelativeSourcePath="..\setup.exe"/>
+		<File Id="setup.dll" MD5="C4136D75731001A351684C9C368C8753" Size="829576" RelativeCachePath="setup.dll" RelativeSourcePath="..\setup.dll"/>
+		<File Id="osetup.dll" MD5="215AEF24F306B9DAC823C2765BF7839C" Size="7083120" RelativeCachePath="osetup.dll" RelativeSourcePath="osetup.dll"/>
+		<File Id="ose.exe" MD5="2B8E4C792BED0E5882702720BC528AE5" Size="150648" RelativeCachePath="ose.exe" RelativeSourcePath="ose.exe"/>
+		<File Id="pkeyconfig-office.xrm-ms" MD5="22BB6D79AC6F5A39F95252E934FD6AF9" Size="480303" RelativeCachePath="pkeyconfig-office.xrm-ms" RelativeSourcePath="pkeyconfig-office.xrm-ms"/>
+		<File Id="PidGenX.dll" MD5="FE100EB225AAD3BA0CAA3CADF9A2393F" Size="1274456" RelativeCachePath="PidGenX.dll" RelativeSourcePath="PidGenX.dll"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

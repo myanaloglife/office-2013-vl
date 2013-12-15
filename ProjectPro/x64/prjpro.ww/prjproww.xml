@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=NSCWxj4lOc9JjzQqzq5CY+bVXSMnclBLk15f59nE//Grpk2pIfHVQhbmCDLXZLpc/mkDvBHHMWngMo66vVtROn0v0wdlW/VDAwcDfRPi+jsGlrp/UEmRLa1cg3MnA3zP2QG0VESVf2Zg/EftEjk2QTQE/bGh4/U426ryx/yRUXM=-->
+<!--_SIG=B+rEUavGEzfqBUPMmWWezNJV/IzC/hvdV+8OCJ+LPGnCz0nidhNeN25LTEnhMxBwBlDIU3OwDNSVeZeJOdnVzpBPVr+fbxeTb/V0yT8i4N4Qmh5BXfwuHncACpn/ucKzM/EyWK1ZA9QGA1KCKw5jT9FEzDLQhNk53lSRyYJbmRo=-->
+<Package Id="PrjProWW" Type="MSI" Path="PrjProWW.MSI" Version="1.0" ProductCode="{90150000-003B-0000-1000-0000000FF1CE}" MSIVersion="15.0.4420.1017" ProductLanguage="0" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="OsmClientUX" Cost="559368">
+		<OptionRef Id="OsmSKUClientUX"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_ArialUni" Cost="23275812">
+		<OptionRef Id="InternationalSupportFiles_ArialUni"/>
+	</Feature>
+	<Feature Id="SetLanguageFiles" Cost="54944">
+		<OptionRef Id="SetLanguageFiles"/>
+	</Feature>
+	<Feature Id="ProofingParent" Cost="583288">
+		<OptionRef Id="ProofingTools"/>
+	</Feature>
+	<Feature Id="OfficeMSProof6" Cost="1226000">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="PROJECTNonBootFiles" Cost="224093590">
+		<OptionRef Id="PROJECTFiles"/>
+	</Feature>
+	<Feature Id="ProductFiles_B2TR" Cost="60732286">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="SubscriptionHeartbeat" Cost="1646814">
+		<OptionRef Id="SubscriptionHeartbeat"/>
+	</Feature>
+	<Feature Id="NonC2R_ProductFiles" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Office10Fix1" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AceFiles" Cost="9097536">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="WISPHidden" Cost="2165248">
+		<OptionRef Id="WISPHidden"/>
+	</Feature>
+	<Feature Id="ProductFiles" Cost="132446342">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OfficeAppSupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled" Cost="419080">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeCoreRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="FirstRunFiles" Cost="967280">
+		<OptionRef Id="FirstRunFiles"/>
+	</Feature>
+	<Feature Id="VSTO" Cost="1470939">
+		<OptionRef Id="VSTO"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles" Cost="93451232">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="TextConverters" Cost="149640">
+		<OptionRef Id="TextConverters"/>
+	</Feature>
+	<Feature Id="WxpFiles" Cost="1669568">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OSetupController" Cost="10702624">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VBAFiles" Cost="11656096">
+		<OptionRef Id="VBAFiles"/>
+	</Feature>
+	<Feature Id="ClviewFiles" Cost="1006144">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="10703092">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="dummy_Office_PIA" Cost="16900646">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="PROJECTFiles" Cost="30404849">
+		<OptionRef Id="PROJECTFiles"/>
+	</Feature>
+	<Feature Id="MSSOAP3" Cost="836400">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeDigitalSFiles" Cost="573080">
+		<OptionRef Id="OfficeDigitalSFiles"/>
+	</Feature>
+	<Feature Id="SetupExeArpEntry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="AceOdbc" Cost="0">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="2105176">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="Forms_PIA" Cost="375424">
+		<OptionRef Id="Forms_PIA"/>
+	</Feature>
+	<Feature Id="SetupExeAddRegistry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Ace_PIA" Cost="106208">
+		<OptionRef Id="Ace_PIA"/>
+	</Feature>
+	<Feature Id="GraphicsFiltersFile" Cost="0">
+		<OptionRef Id="GraphicsFiltersFile"/>
+	</Feature>
+	<Feature Id="Project_PIA" Cost="17975132">
+		<OptionRef Id="Project_PIA"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler" Cost="933536">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="DocumentImagingUtils" Cost="5976130">
+		<OptionRef Id="DocumentImagingUtils"/>
+	</Feature>
+	<Feature Id="OfficeOLESupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="TCDRegistration" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="VSTOCLR40" Cost="2871784">
+		<OptionRef Id="VSTOCLR40"/>
+	</Feature>
+	<Feature Id="CARegistryFeature" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OsmAdminUX" Cost="559376">
+		<OptionRef Id="OsmSKUAdminUX"/>
+	</Feature>
+	<Feature Id="OSpp" Cost="4678366">
+		<OptionRef Id="OSpp"/>
+	</Feature>
+	<Feature Id="WixSwidTag" Cost="1061">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeIntlRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OSpp_Core" Cost="7372649">
+		<OptionRef Id="OSpp_Core"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_JPN" Cost="165248">
+		<OptionRef Id="InternationalSupportFiles_JPN"/>
+	</Feature>
+	<Feature Id="VSTOCLR35" Cost="4619998">
+		<OptionRef Id="VSTOCLR35"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OArt_DocTheme" Cost="22243816">
+		<OptionRef Id="OArt_DocTheme"/>
+	</Feature>
+	<Feature Id="OfficePostBoot" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VSCommonPIAHidden" Cost="16406640">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="IMNFiles" Cost="232376">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WISPFiles" Cost="2165248">
+		<OptionRef Id="WISPFiles"/>
+	</Feature>
+	<Feature Id="OsmSKUMain" Cost="393528">
+		<OptionRef Id="OsmSKUMain"/>
+	</Feature>
+	<Feature Id="TranslationCore" Cost="259904">
+		<OptionRef Id="TranslationCore"/>
+	</Feature>
+</Package>

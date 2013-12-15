@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=U06bcthn3NkHnaV0NymE4IR84+KUCLfJS0UdLSnaKlB73919uKvtXZxal+C1fSuHJPk/2OUHt34TUwFpdMNVhGOeKhMJi6yrbUCJNHnlKhCpdjv+7FTHY23k2K8TQCG8/GLu+rCMBu164zwAxUeuuIZh1jZ1gglKwSmdX/r0iQc=-->
+<!--_SIG=ed9VECo97X1PiojFbGcgXjUhp+0kbx7XdqktrXA4HebPgdfH/K9rDIbxKWAH2W22FSetrSuownbvfq5ZTH9k8gLMHWEXLMd4yJ1Qo0ZaNDjynPn6+whqTNnZkPd8CgCMSjN7wj0cLAMvRCA35HyxgE1pz4NA+Atu3gdoO6vENp0=-->
+<Package Id="VisProWW" Type="MSI" Path="VisProWW.MSI" Version="1.0" ProductCode="{90150000-0051-0000-1000-0000000FF1CE}" MSIVersion="15.0.4420.1017" ProductLanguage="0" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="OfficePostBoot" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Visio_Workflow_Unitless" Cost="2258440">
+		<OptionRef Id="Visio_Workflow_Unitless"/>
+	</Feature>
+	<Feature Id="ProductFiles_B2TR" Cost="60732286">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="VisioHelp" Cost="0">
+		<OptionRef Id="VisioHelp"/>
+	</Feature>
+	<Feature Id="SetupExeArpEntry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Internet_Diagrams_Unitless" Cost="1092752">
+		<OptionRef Id="Internet_Diagrams_Unitless"/>
+	</Feature>
+	<Feature Id="VISIONonBootFiles" Cost="0">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="WISPFiles" Cost="2165248">
+		<OptionRef Id="WISPFiles"/>
+	</Feature>
+	<Feature Id="SetLanguageFiles" Cost="54944">
+		<OptionRef Id="SetLanguageFiles"/>
+	</Feature>
+	<Feature Id="Ace_PIA" Cost="106208">
+		<OptionRef Id="Ace_PIA"/>
+	</Feature>
+	<Feature Id="ClviewFiles" Cost="1006144">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Project_Schedules_Unitless" Cost="3824544">
+		<OptionRef Id="Project_Schedules_Unitless"/>
+	</Feature>
+	<Feature Id="VSTOCLR35" Cost="4619998">
+		<OptionRef Id="VSTOCLR35"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_ArialUni" Cost="23275812">
+		<OptionRef Id="InternationalSupportFiles_ArialUni"/>
+	</Feature>
+	<Feature Id="MSSOAP3" Cost="836400">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VISIOProOnlyNonBootFiles" Cost="233378478">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="Visio_Drilldown_Unitless" Cost="1482376">
+		<OptionRef Id="Visio_Drilldown_Unitless"/>
+	</Feature>
+	<Feature Id="VisioPreviewerFiles" Cost="33274144">
+		<OptionRef Id="VisioPreviewerFiles"/>
+	</Feature>
+	<Feature Id="WxpFiles" Cost="1669568">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeDigitalSFiles" Cost="573080">
+		<OptionRef Id="OfficeDigitalSFiles"/>
+	</Feature>
+	<Feature Id="VisioCoreShapeSearch" Cost="1156">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="OsmClientUX" Cost="559368">
+		<OptionRef Id="OsmSKUClientUX"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Process_Engineering_Unitless" Cost="838264">
+		<OptionRef Id="Process_Engineering_Unitless"/>
+	</Feature>
+	<Feature Id="OfficeMSProof6" Cost="1226000">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Visio_Data_Visualization_Unitless" Cost="0">
+		<OptionRef Id="Visio_Data_Visualization_Unitless"/>
+	</Feature>
+	<Feature Id="CAD_Drawing_Display_Unitless" Cost="13390152">
+		<OptionRef Id="CAD_Drawing_Display_Unitless"/>
+	</Feature>
+	<Feature Id="GraphicsFiltersFile" Cost="0">
+		<OptionRef Id="GraphicsFiltersFile"/>
+	</Feature>
+	<Feature Id="Building_Plan_Unitless" Cost="1413256">
+		<OptionRef Id="Building_Plan_Unitless"/>
+	</Feature>
+	<Feature Id="OfficeAppSupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler" Cost="933536">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="ProductFiles" Cost="132446342">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OfficeIntlRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OSetupController" Cost="10702624">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WixSwidTag" Cost="1059">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Flowcharts_Unitless" Cost="736904">
+		<OptionRef Id="Flowcharts_Unitless"/>
+	</Feature>
+	<Feature Id="SetupExeAddRegistry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="DocumentImagingUtils" Cost="5976130">
+		<OptionRef Id="DocumentImagingUtils"/>
+	</Feature>
+	<Feature Id="OsmSKUMain" Cost="393528">
+		<OptionRef Id="OsmSKUMain"/>
+	</Feature>
+	<Feature Id="OfficeCoreRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WISPHidden" Cost="2165248">
+		<OptionRef Id="WISPHidden"/>
+	</Feature>
+	<Feature Id="TCDRegistration" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="10703092">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Addons_Unitless" Cost="0">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="TranslationCore" Cost="259904">
+		<OptionRef Id="TranslationCore"/>
+	</Feature>
+	<Feature Id="Organization_Charts_Unitless" Cost="2593736">
+		<OptionRef Id="Organization_Charts_Unitless"/>
+	</Feature>
+	<Feature Id="OsmAdminUX" Cost="559376">
+		<OptionRef Id="OsmSKUAdminUX"/>
+	</Feature>
+	<Feature Id="TextConverters" Cost="149640">
+		<OptionRef Id="TextConverters"/>
+	</Feature>
+	<Feature Id="OSpp_Core" Cost="7372649">
+		<OptionRef Id="OSpp_Core"/>
+	</Feature>
+	<Feature Id="IMNFiles" Cost="232376">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="Visio_Core_Content_Unitless" Cost="0">
+		<OptionRef Id="Visio_Core_Content_Unitless"/>
+	</Feature>
+	<Feature Id="VisioCore" Cost="54815170">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="VSCommonPIAHidden" Cost="16406640">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="VSTOCLR40" Cost="2871784">
+		<OptionRef Id="VSTOCLR40"/>
+	</Feature>
+	<Feature Id="AceOdbc" Cost="0">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="NonC2R_ProductFiles" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="OSpp" Cost="4678366">
+		<OptionRef Id="OSpp"/>
+	</Feature>
+	<Feature Id="Forms_PIA" Cost="375424">
+		<OptionRef Id="Forms_PIA"/>
+	</Feature>
+	<Feature Id="ProofingParent" Cost="583288">
+		<OptionRef Id="ProofingTools"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_JPN" Cost="165248">
+		<OptionRef Id="InternationalSupportFiles_JPN"/>
+	</Feature>
+	<Feature Id="Visio_PIA" Cost="1807738">
+		<OptionRef Id="Visio_PIA"/>
+	</Feature>
+	<Feature Id="CARegistryFeature" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="Brainstorming_Unitless" Cost="860661">
+		<OptionRef Id="Brainstorming_Unitless"/>
+	</Feature>
+	<Feature Id="VISIOFiles" Cost="3921032">
+		<OptionRef Id="VISIOFiles"/>
+	</Feature>
+	<Feature Id="dummy_Office_PIA" Cost="16900646">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="DCubeHidden" Cost="0">
+		<OptionRef Id="DCubeHidden"/>
+	</Feature>
+	<Feature Id="Office10Fix1" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Building_Plan_PRO_Unitless" Cost="2732440">
+		<OptionRef Id="Building_Plan_PRO_Unitless"/>
+	</Feature>
+	<Feature Id="AceFiles" Cost="9097536">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="2105176">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SubscriptionHeartbeat" Cost="1646814">
+		<OptionRef Id="SubscriptionHeartbeat"/>
+	</Feature>
+	<Feature Id="OArt_DocTheme" Cost="22243816">
+		<OptionRef Id="OArt_DocTheme"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled" Cost="419080">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OfficeOLESupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VBAFiles" Cost="11656096">
+		<OptionRef Id="VBAFiles"/>
+	</Feature>
+	<Feature Id="VSTO" Cost="1470939">
+		<OptionRef Id="VSTO"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles" Cost="93451232">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="FirstRunFiles" Cost="967280">
+		<OptionRef Id="FirstRunFiles"/>
+	</Feature>
+</Package>

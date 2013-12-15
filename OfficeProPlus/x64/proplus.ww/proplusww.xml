@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=IQKdRb0zxxQ716ru8YieoFW+Y3RSIzcXTXUYNEIy9lB503WIXwQPZYj+oUV+iECJLSC0hwNERBLPlg2sH7310H9sh3GLfhEzN6bA0a46RaC8ctZw9jytBVhOY1ZC0Kka3Lnpjgkojq8QBJOwCvd9YqtRs/B9sGyHg7ApkNe2kj0=-->
+<!--_SIG=yc8+AQBlN6c5+dDt8rWxQ90OQ1ySGU+dA1+S0+ynDTSp4ebsirHVtL0a3XTC/74MgHdvxkKZ56bFqQJfRwPkI6aaO48cAj43AZ2cez2Yi9W7hLmlkHOnInJf/U9HE5f7umMa6zvbe2O/wHfeuGPQ607/wV3/9JzooRBJ61WBRX4=-->
+<Package Id="ProPlusWW" Type="MSI" Path="ProPlusWW.MSI" Version="1.0" ProductCode="{90150000-0011-0000-1000-0000000FF1CE}" MSIVersion="15.0.4420.1017" ProductLanguage="0" Platform="x64" LocalizationTransform="ShellUI">
+	<Feature Id="RhdInspector" Cost="79592">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScoped" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VSTOCLR35" Cost="4619998">
+		<OptionRef Id="VSTOCLR35"/>
+	</Feature>
+	<Feature Id="VBAFiles" Cost="11656096">
+		<OptionRef Id="VBAFiles"/>
+	</Feature>
+	<Feature Id="WORDDocumentTemplates" Cost="1936788">
+		<OptionRef Id="WORDDocumentTemplates"/>
+	</Feature>
+	<Feature Id="OfficeOLESupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="PPTSoundFiles" Cost="407780">
+		<OptionRef Id="PPTSoundFiles"/>
+	</Feature>
+	<Feature Id="OrgChartFiles" Cost="695504">
+		<OptionRef Id="OrgChartFiles"/>
+	</Feature>
+	<Feature Id="PubNonBootFiles" Cost="14738655">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="Office10Fix1" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoCommonShellHandler" Cost="933536">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="ProductFiles_B2TR" Cost="60732286">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="LOBiFiles" Cost="11793809">
+		<OptionRef Id="LOBiFiles"/>
+	</Feature>
+	<Feature Id="DocumentImagingUtils" Cost="5976130">
+		<OptionRef Id="DocumentImagingUtils"/>
+	</Feature>
+	<Feature Id="AceFiles" Cost="9097536">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="OfficePostBoot" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="VSTO" Cost="1470939">
+		<OptionRef Id="VSTO"/>
+	</Feature>
+	<Feature Id="NonC2R_ProductFiles" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="PPTNonBootFiles" Cost="4145832">
+		<OptionRef Id="PPTFiles"/>
+	</Feature>
+	<Feature Id="ExcelAddinFiles" Cost="0">
+		<OptionRef Id="ExcelAddinFiles"/>
+	</Feature>
+	<Feature Id="OutlookSocialConnectorProPlus" Cost="665504">
+		<OptionRef Id="OutlookSocialConnector"/>
+	</Feature>
+	<Feature Id="OneNoteFiles" Cost="40590817">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="WordPdfi" Cost="13045368">
+		<OptionRef Id="WordPdfi"/>
+	</Feature>
+	<Feature Id="OutlookOms" Cost="1413952">
+		<OptionRef Id="OutlookOms"/>
+	</Feature>
+	<Feature Id="ACCESSMiscFullFiles" Cost="126632">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="dummy_Office_PIA" Cost="16900646">
+		<OptionRef Id="dummy_Office_PIA"/>
+	</Feature>
+	<Feature Id="Publisher_PIA" Cost="17200980">
+		<OptionRef Id="Publisher_PIA"/>
+	</Feature>
+	<Feature Id="WORDSharedFiles" Cost="28838800">
+		<OptionRef Id="WORDSharedFiles"/>
+	</Feature>
+	<Feature Id="VSCommonPIAHidden" Cost="16406640">
+		<OptionRef Id="VSCommonPIAHidden"/>
+	</Feature>
+	<Feature Id="SubscriptionHeartbeat" Cost="1646814">
+		<OptionRef Id="SubscriptionHeartbeat"/>
+	</Feature>
+	<Feature Id="ExcelAddInEuroToolFiles" Cost="393248">
+		<OptionRef Id="ExcelAddInEuroToolFiles"/>
+	</Feature>
+	<Feature Id="WordConverter12Files" Cost="47393208">
+		<OptionRef Id="WordConverter12Files"/>
+	</Feature>
+	<Feature Id="MSTagPluginBiblioFiles" Cost="121992">
+		<OptionRef Id="MSTagPluginBiblioFiles"/>
+	</Feature>
+	<Feature Id="OneNoteToIEAddin" Cost="733872">
+		<OptionRef Id="OneNoteToIEAddin"/>
+	</Feature>
+	<Feature Id="NonC2R_XDOCSNonBootFiles" Cost="1892352">
+		<OptionRef Id="XDOCSFiles"/>
+	</Feature>
+	<Feature Id="GraphicsFiltersFile" Cost="0">
+		<OptionRef Id="GraphicsFiltersFile"/>
+	</Feature>
+	<Feature Id="OutlookVBScript" Cost="74368">
+		<OptionRef Id="OutlookVBScript"/>
+	</Feature>
+	<Feature Id="WebDiscussFiles" Cost="2105176">
+		<OptionRef Id="WebDiscussFiles"/>
+	</Feature>
+	<Feature Id="SetLanguageFiles" Cost="54944">
+		<OptionRef Id="SetLanguageFiles"/>
+	</Feature>
+	<Feature Id="PubFontsBalanceSys" Cost="5368264">
+		<OptionRef Id="PubFontsBalanceSys"/>
+	</Feature>
+	<Feature Id="DCFSpreadsheetIQ" Cost="48366710">
+		<OptionRef Id="Prodiance"/>
+	</Feature>
+	<Feature Id="OfficeIntlRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="10703092">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="ExcelConverter12Files" Cost="69067022">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OutlookMAPILDAP2" Cost="152208">
+		<OptionRef Id="OutlookMAPILDAP2"/>
+	</Feature>
+	<Feature Id="XDOCSEditorFiles" Cost="9718368">
+		<OptionRef Id="XDOCSEditorFiles"/>
+	</Feature>
+	<Feature Id="Word_PIA" Cost="17889054">
+		<OptionRef Id="Word_PIA"/>
+	</Feature>
+	<Feature Id="OutlookMAPIEMS2" Cost="2503880">
+		<OptionRef Id="OutlookMAPIEMS2"/>
+	</Feature>
+	<Feature Id="AceOdbc" Cost="0">
+		<OptionRef Id="AceFiles"/>
+	</Feature>
+	<Feature Id="NonC2R_OneNoteNonBootFiles" Cost="272896">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="Access_PIA" Cost="18814738">
+		<OptionRef Id="Access_PIA"/>
+	</Feature>
+	<Feature Id="PubWizardsTier3" Cost="1531636">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="LISTFiles" Cost="3915432">
+		<OptionRef Id="LISTFiles"/>
+	</Feature>
+	<Feature Id="VisioPreviewerFiles" Cost="33274144">
+		<OptionRef Id="VisioPreviewerFiles"/>
+	</Feature>
+	<Feature Id="OSetupController" Cost="10702624">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OSpp_Core" Cost="7372649">
+		<OptionRef Id="OSpp_Core"/>
+	</Feature>
+	<Feature Id="VisioPreviewerFileAssocFiles" Cost="0">
+		<OptionRef Id="VisioPreviewerFiles"/>
+	</Feature>
+	<Feature Id="OfficeDigitalSFiles" Cost="573080">
+		<OptionRef Id="OfficeDigitalSFiles"/>
+	</Feature>
+	<Feature Id="OneNotePIA" Cost="16893156">
+		<OptionRef Id="OneNotePIA"/>
+	</Feature>
+	<Feature Id="ACCESSNonBootMiscFullFiles" Cost="0">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="OutlookSearchShellReg" Cost="64736">
+		<OptionRef Id="OutlookSearchShellReg"/>
+	</Feature>
+	<Feature Id="PubWizards" Cost="40532495">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="OsmAdminUX" Cost="559376">
+		<OptionRef Id="OsmSKUAdminUX"/>
+	</Feature>
+	<Feature Id="MSSOAP3" Cost="836400">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="XDocsProgrammabilityFiles" Cost="3239010">
+		<OptionRef Id="XDocs_PIA"/>
+	</Feature>
+	<Feature Id="OUTLOOKNonBootFiles" Cost="5912073">
+		<OptionRef Id="OUTLOOKFiles"/>
+	</Feature>
+	<Feature Id="WORDFiles" Cost="10410280">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="XDOCSNonBootFiles" Cost="0">
+		<OptionRef Id="XDOCSFiles"/>
+	</Feature>
+	<Feature Id="THEMESFiles" Cost="1168160">
+		<OptionRef Id="THEMESFiles"/>
+	</Feature>
+	<Feature Id="TranslationCore" Cost="259904">
+		<OptionRef Id="TranslationCore"/>
+	</Feature>
+	<Feature Id="EXCELNonBootFiles" Cost="227546153">
+		<OptionRef Id="EXCELFiles"/>
+	</Feature>
+	<Feature Id="Word_WISPFiles" Cost="2165248">
+		<OptionRef Id="WORDSharedFiles"/>
+	</Feature>
+	<Feature Id="VSTOCLR40" Cost="2871784">
+		<OptionRef Id="VSTOCLR40"/>
+	</Feature>
+	<Feature Id="Lync_CoreDesktop" Cost="6677440">
+		<OptionRef Id="LyncCoreFiles"/>
+	</Feature>
+	<Feature Id="OutlookImportExportFiles" Cost="239384">
+		<OptionRef Id="OutlookImportExportFiles"/>
+	</Feature>
+	<Feature Id="Graph_PIA" Cost="682652">
+		<OptionRef Id="Graph_PIA"/>
+	</Feature>
+	<Feature Id="NonC2R_OneNoteFiles" Cost="128952">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="OUTLOOKFiles" Cost="36380290">
+		<OptionRef Id="OUTLOOKFiles"/>
+	</Feature>
+	<Feature Id="MSTagPluginIMContactFiles" Cost="99976">
+		<OptionRef Id="MSTagPluginIMContactFiles"/>
+	</Feature>
+	<Feature Id="OutlookMessaging" Cost="1966848">
+		<OptionRef Id="OutlookMessaging"/>
+	</Feature>
+	<Feature Id="Excel_WISPFiles" Cost="2165248">
+		<OptionRef Id="EXCELFiles"/>
+	</Feature>
+	<Feature Id="WORDBibliographyFiles" Cost="3546322">
+		<OptionRef Id="WordBibliographyFiles"/>
+	</Feature>
+	<Feature Id="SetupExeAddRegistry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="WORDBordersFiles" Cost="532632">
+		<OptionRef Id="WORDBordersFiles"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_JPN" Cost="165248">
+		<OptionRef Id="InternationalSupportFiles_JPN"/>
+	</Feature>
+	<Feature Id="OneNoteQuickNote" Cost="185992">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="AccessBDCFiles" Cost="165048">
+		<OptionRef Id="AccessBDCFiles"/>
+	</Feature>
+	<Feature Id="SmartTag_PIA" Cost="16362728">
+		<OptionRef Id="SmartTag_PIA"/>
+	</Feature>
+	<Feature Id="DeveloperWizards" Cost="21999616">
+		<OptionRef Id="DeveloperWizards"/>
+	</Feature>
+	<Feature Id="TextConverters" Cost="149640">
+		<OptionRef Id="TextConverters"/>
+	</Feature>
+	<Feature Id="WISPHidden" Cost="2165248">
+		<OptionRef Id="WISPHidden"/>
+	</Feature>
+	<Feature Id="AlwaysInstalled" Cost="419080">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="ProductNonBootFiles" Cost="93451232">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="ThemesAdditionalFiles" Cost="1337222">
+		<OptionRef Id="ThemesAdditionalFiles"/>
+	</Feature>
+	<Feature Id="OfficeMSProof6" Cost="1226000">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="ProductFiles" Cost="132446342">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="WhiteRabbitHidden" Cost="159739">
+		<OptionRef Id="WhiteRabbitHidden"/>
+	</Feature>
+	<Feature Id="OutlookSearchPHAndPluginReg" Cost="413352">
+		<OptionRef Id="OutlookSearchPHAndPluginReg"/>
+	</Feature>
+	<Feature Id="WxpFiles" Cost="1669568">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="ACCESSNonBootFiles" Cost="224872982">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="ThemesTypicalFiles" Cost="3144439">
+		<OptionRef Id="ThemesTypicalFiles"/>
+	</Feature>
+	<Feature Id="OneNoteNonBootFiles" Cost="3969746">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="FirstRunFiles" Cost="967280">
+		<OptionRef Id="FirstRunFiles"/>
+	</Feature>
+	<Feature Id="OutlookDVCsvWinFiles" Cost="58160">
+		<OptionRef Id="OutlookDVCsvWinFiles"/>
+	</Feature>
+	<Feature Id="CARegistryFeature" Cost="0">
+		<OptionRef Id="ProductFiles"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="XDocs_PIA" Cost="19629906">
+		<OptionRef Id="XDocs_PIA"/>
+	</Feature>
+	<Feature Id="PubPrimary" Cost="17075265">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="PubCoreFontFilesSys" Cost="12201860">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="QueryFiles" Cost="872552">
+		<OptionRef Id="QueryFiles"/>
+	</Feature>
+	<Feature Id="EXCELFiles" Cost="43468761">
+		<OptionRef Id="EXCELFiles"/>
+	</Feature>
+	<Feature Id="MetricConverter" Cost="1296192">
+		<OptionRef Id="MetricConverter"/>
+	</Feature>
+	<Feature Id="OutlookDefaults" Cost="0">
+		<OptionRef Id="OUTLOOKFiles"/>
+	</Feature>
+	<Feature Id="PubComPrinting" Cost="0">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="OsmSKUMain" Cost="393528">
+		<OptionRef Id="OsmSKUMain"/>
+	</Feature>
+	<Feature Id="XDOCSFiles" Cost="22713376">
+		<OptionRef Id="XDOCSFiles"/>
+	</Feature>
+	<Feature Id="WixSwidTag" Cost="1065">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OneNoteToOLAddin" Cost="980616">
+		<OptionRef Id="OneNoteToOLAddin"/>
+	</Feature>
+	<Feature Id="OfficeAppSupport" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="Lync_CoreFiles" Cost="135238110">
+		<OptionRef Id="LyncCoreFiles"/>
+	</Feature>
+	<Feature Id="TCDRegistration" Cost="0">
+		<OptionRef Id="TCDRegistration"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="PowerPoint_PIA" Cost="17348442">
+		<OptionRef Id="PowerPoint_PIA"/>
+	</Feature>
+	<Feature Id="WISPFiles" Cost="2165248">
+		<OptionRef Id="WISPFiles"/>
+	</Feature>
+	<Feature Id="LOBiMain" Cost="270117">
+		<OptionRef Id="LOBiMain"/>
+	</Feature>
+	<Feature Id="SetupExeArpEntry" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="NonC2R_PPTNonBootFiles" Cost="2165248">
+		<OptionRef Id="PPTFiles"/>
+	</Feature>
+	<Feature Id="MSTagPluginsFiles" Cost="337032">
+		<OptionRef Id="MSTagPluginsFiles"/>
+	</Feature>
+	<Feature Id="PubWizardsTier2" Cost="17199474">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="MSTagPluginDateFiles" Cost="99976">
+		<OptionRef Id="MSTagPluginDateFiles"/>
+	</Feature>
+	<Feature Id="ProofingParent" Cost="583288">
+		<OptionRef Id="ProofingTools"/>
+	</Feature>
+	<Feature Id="InternationalSupportFiles_ArialUni" Cost="23275812">
+		<OptionRef Id="InternationalSupportFiles_ArialUni"/>
+	</Feature>
+	<Feature Id="OutlookMAPIPST2" Cost="3900728">
+		<OptionRef Id="OutlookMAPIPST2"/>
+	</Feature>
+	<Feature Id="OutlookAddIn_SPS" Cost="32973630">
+		<OptionRef Id="OutlookAddIn_SPS"/>
+	</Feature>
+	<Feature Id="GrooveFiles2" Cost="18066260">
+		<OptionRef Id="GrooveFiles2"/>
+	</Feature>
+	<Feature Id="OutlookSocialConnector" Cost="1292104">
+		<OptionRef Id="OutlookSocialConnector"/>
+	</Feature>
+	<Feature Id="ClviewFiles" Cost="1006144">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="PubPaperDirect" Cost="0">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="OSpp" Cost="4678366">
+		<OptionRef Id="OSpp"/>
+	</Feature>
+	<Feature Id="OsmClientUX" Cost="559368">
+		<OptionRef Id="OsmSKUClientUX"/>
+	</Feature>
+	<Feature Id="OneNoteHandwritingFonts" Cost="932804">
+		<OptionRef Id="OneNoteHandwritingFonts"/>
+	</Feature>
+	<Feature Id="OfficeCoreRDC" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OutlookMAPI2" Cost="5556680">
+		<OptionRef Id="OutlookMAPI2"/>
+	</Feature>
+	<Feature Id="AccessWizards" Cost="19791872">
+		<OptionRef Id="AccessWizards"/>
+	</Feature>
+	<Feature Id="PubCoreClipArtFiles" Cost="28155114">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="IMNFiles" Cost="232376">
+		<OptionRef Id="SHAREDFiles"/>
+	</Feature>
+	<Feature Id="OArt_DocTheme" Cost="22243816">
+		<OptionRef Id="OArt_DocTheme"/>
+	</Feature>
+	<Feature Id="Ace_PIA" Cost="106208">
+		<OptionRef Id="Ace_PIA"/>
+	</Feature>
+	<Feature Id="MSTagPluginBiblioDataFiles" Cost="227311">
+		<OptionRef Id="MSTagPluginBiblioFiles"/>
+	</Feature>
+	<Feature Id="ACCESSSharepointISAM" Cost="314048">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="Outlook_PIA" Cost="17994900">
+		<OptionRef Id="Outlook_PIA"/>
+	</Feature>
+	<Feature Id="DCFSpreadsheetCompare" Cost="93552182">
+		<OptionRef Id="Prodiance"/>
+	</Feature>
+	<Feature Id="DCubeHidden" Cost="0">
+		<OptionRef Id="DCubeHidden"/>
+	</Feature>
+	<Feature Id="ExcelAddInPowerViewFiles" Cost="67300666">
+		<OptionRef Id="ExcelAddInPowerViewFiles"/>
+	</Feature>
+	<Feature Id="OutlookMAPICONTAB2" Cost="181384">
+		<OptionRef Id="OutlookMAPICONTAB2"/>
+	</Feature>
+	<Feature Id="Excel_PP" Cost="120988535">
+		<OptionRef Id="Excel_PP"/>
+	</Feature>
+	<Feature Id="ACCESSFiles" Cost="28669166">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="Forms_PIA" Cost="375424">
+		<OptionRef Id="Forms_PIA"/>
+	</Feature>
+	<Feature Id="DCFDatabaseCompare" Cost="47208256">
+		<OptionRef Id="Prodiance"/>
+	</Feature>
+	<Feature Id="MSTagPluginNamesFiles" Cost="213128">
+		<OptionRef Id="MSTagPluginNamesFiles"/>
+	</Feature>
+	<Feature Id="PubComPrintingEnRGBCMYK" Cost="218103">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="AccessLobiDependencies" Cost="1534509">
+		<OptionRef Id="AccessLobiDependencies"/>
+	</Feature>
+	<Feature Id="PPTPresentationTemplates" Cost="2062654">
+		<OptionRef Id="PPTPresentationTemplates"/>
+	</Feature>
+	<Feature Id="PubCoreWizardFiles" Cost="1768">
+		<OptionRef Id="PubPrimary"/>
+	</Feature>
+	<Feature Id="GRAPHFiles" Cost="6133992">
+		<OptionRef Id="GRAPHFiles"/>
+	</Feature>
+	<Feature Id="ExcelAddInPowerPivotFiles" Cost="192779745">
+		<OptionRef Id="ExcelAddInPowerPivotFiles"/>
+	</Feature>
+	<Feature Id="OutlookDVExtensionsFiles" Cost="591024">
+		<OptionRef Id="OutlookDVExtensionsFiles"/>
+	</Feature>
+	<Feature Id="WORDNonBootFiles" Cost="17885700">
+		<OptionRef Id="WORDFiles"/>
+	</Feature>
+	<Feature Id="PPTFiles" Cost="28643083">
+		<OptionRef Id="PPTFiles"/>
+	</Feature>
+	<Feature Id="Excel_PIA" Cost="18577164">
+		<OptionRef Id="Excel_PIA"/>
+	</Feature>
+</Package>
